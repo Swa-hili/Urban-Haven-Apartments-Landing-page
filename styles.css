@@ -4,7 +4,7 @@
   align-items: center;
   padding: 1rem;
   background-color: #333;
-  color: #fff;
+  color:peru;
 }
 
 .logo h1 {
@@ -13,36 +13,19 @@
 
 .navbar {
   display: flex;
-  align-items: center;
+  align-items:center;
 }
 
 .nav-links {
   display: flex;
   list-style: none;
+  color: peru;
 }
 
 .nav-links li {
   margin-left: 1rem;
 }
 
-.nav-links a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1rem;
-}
-
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.hamburger .bar {
-  width: 25px;
-  height: 3px;
-  background-color: #fff;
-  margin: 4px 0;
-}
 
 @media (max-width: 768px) {
   .nav-links {
@@ -50,16 +33,11 @@
     flex-direction: column;
     width: 100%;
     background-color: #333;
-  }
+  }}
 
   .nav-links.active {
     display: flex;
   }
-
-  .hamburger {
-    display: flex;
-  }
-}
 
 .card-container {
   display: flex;
