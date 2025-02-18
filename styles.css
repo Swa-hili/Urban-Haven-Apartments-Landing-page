@@ -1,43 +1,53 @@
-.header {
+
+.logo {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
   padding: 1rem;
-  background-color: #333;
+  background-color:white;
   color:peru;
 }
 
-.logo h1 {
-  font-size: 1.5rem;
+.header{
+  border: 2px solid red;
+  background-color: white;
 }
 
-.navbar {
+.navbar{
+  padding-right: 0.2rem;
+  border: 2px solid red;
   display: flex;
+  justify-content: center;
   align-items:center;
+  padding-right: 5px;
 }
-
-.nav-links {
+.nav-links{
   display: flex;
   list-style: none;
-  color: peru;
-}
-
-.nav-links li {
-  margin-left: 1rem;
+  
 }
 
 
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    width: 100%;
-    background-color: #333;
-  }}
+.nav-links li{
+  margin: 1rem;
+   
+}
+.about{
+  border: 2px solid blue;
+  height:500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 
-  .nav-links.active {
-    display: flex;
-  }
+}
+
+.about-title{
+  font-size: 50px;
+  flex-direction: column;
+
+}
 
 .card-container {
   display: flex;
@@ -141,3 +151,22 @@
   color: #fff;
   margin-top: 2rem;
 }
+
+/* Apply to the entire page */
+body {
+  background-image: url('./Pictures/Mine.jpg'); 
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  min-height: 100vh; 
+  margin: 0; 
+  padding: 0; 
+  
+ 
+}
+
+
+
+
+
